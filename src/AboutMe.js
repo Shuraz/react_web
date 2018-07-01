@@ -3,7 +3,11 @@ import MyPic from './mypic.png';
 import Pic from './pic.png'
 import ProfilePic from './profilepic.png';
 import LinkedInIcon from 'react-icons/lib/fa/linkedin-square';
+import CircularProgressbar from 'react-circular-progressbar';
+import 'react-circular-progressbar/dist/styles.css';
 
+const percentage = 66;
+ 
 
 
 
@@ -72,46 +76,46 @@ export default class aboutme extends Component {
 
                         <h5> Core Java</h5>
                         <div className="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width:'85%'}}>
+                            <div class=" bg-info progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width:'85%'}}>
                             Java 85%
                             </div>
                         </div>
                         <h5> JavaScript</h5>
                         <div className="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width:'95%'}}>
+                            <div class="bg-info progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width:'95%'}}>
                             Java 85%
                             </div>
                         </div>
                         <h5> SQL</h5>
                         <div className="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width:'65%'}}>
+                            <div class="bg-info progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width:'65%'}}>
                             Java 85%
                             </div>
                         </div>
                         <h5> React</h5>
                         <div className="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width:'55%'}}>
+                            <div class="bg-info progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width:'55%'}}>
                             Java 85%
                             </div>
                         </div>
 
                          <h5> Bootstrap</h5>
                         <div className="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width:'55%'}}>
+                            <div class=" bg-info progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width:'55%'}}>
                             Java 85%
                             </div>
                         </div>
 
                            <h5> HTML</h5>
                         <div className="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width:'55%'}}>
+                            <div class=" bg-info progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width:'55%'}}>
                             Java 85%
                             </div>
                         </div>
 
                            <h5> CSS</h5>
                         <div className="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width:'55%'}}>
+                            <div class="bg-info progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width:'55%'}}>
                             Java 85%
                             </div>
                         </div>
@@ -121,56 +125,33 @@ export default class aboutme extends Component {
                     </div>
 
                     <div className="container alert alert-light col-sm-4" role="alert">
-                        <h3>Specification </h3>
+                        <h3>Software Engineering</h3>
 
-                        <h5> Core Java</h5>
-                        <div className="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width:'85%'}}>
-                            Java 85%
-                            </div>
+                        
+                        <div className="container text-left">
+                        <h5>Research</h5>
+                                    <div style={{ width: '100px' }}>
+                <CircularProgressbar percentage={100} text={`${100}%`} />
+                                    </div>
+                           
                         </div>
-                        <h5> JavaScript</h5>
-                        <div className="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width:'95%'}}>
-                            Java 85%
-                            </div>
-                        </div>
-                        <h5> SQL</h5>
-                        <div className="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width:'65%'}}>
-                            Java 85%
-                            </div>
-                        </div>
-                        <h5> React</h5>
-                        <div className="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width:'55%'}}>
-                            Java 85%
-                            </div>
-                        </div>
-
-                         <h5> Bootstrap</h5>
-                        <div className="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width:'55%'}}>
-                            Java 85%
-                            </div>
-                        </div>
-
-                           <h5> HTML</h5>
-                        <div className="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width:'55%'}}>
-                            Java 85%
-                            </div>
-                        </div>
-
-                           <h5> CSS</h5>
-                        <div className="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width:'55%'}}>
-                            Java 85%
-                            </div>
-                        </div>
-                    
-
                        
+                        <div className="container text-left">
+                        <h5>Design</h5>
+                                    <div style={{ width: '100px' }}>
+                            <CircularProgressbar percentage={90} text={`${90}%`} />
+                                    </div>
+                        </div>
+                        <div className="container text-left">
+                        <h5>Development</h5>
+
+                        
+                                    <div style={{ width: '100px' }}>
+                            <CircularProgressbar percentage={80} text={`${80}%`} />
+                                    </div>
+                           
+                        </div>
+ 
                     </div>
 
                 </div>
