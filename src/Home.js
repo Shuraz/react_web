@@ -14,17 +14,18 @@ class Home extends Component {
     return (
     
 <div class="jumbotron_home text-center">
-      <div class="typewriter text-danger">
+    
          <h1>Hello, I'm Suraj Pokhrel.
            
          </h1>
-        
+         
   <a class="btn btn-outline-danger btn-lg"  href="#portfolio" role="button">
    View My Work <DownIcon/>
   </a>
-        </div>
-  <h1>Company</h1> 
-  <p>We specialize in blablabla</p> 
+  <div class="typewriter text-warning">
+  <h1>I am a full stack web developer.</h1> 
+  </div>
+  <p>I am eagerly excited to work with new exciting team and on cutting edge technology.</p> 
 
 </div>
     );

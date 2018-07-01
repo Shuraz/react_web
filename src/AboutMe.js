@@ -2,6 +2,9 @@ import React, { Component } from 'react'
 import MyPic from './mypic.png';
 import Pic from './pic.png'
 import ProfilePic from './profilepic.png';
+import LinkedInIcon from 'react-icons/lib/fa/linkedin-square';
+
+
 
 
 export default class aboutme extends Component {
@@ -48,22 +51,76 @@ export default class aboutme extends Component {
 
             <div className="container">
                 <div className="row">
-                    <div className="col col-sm-6">
-                        <figure>
-                        <img className="img-fluid rounded border border-info" src={ProfilePic} width={250} alt="Suraj Pic"/>
-                        <figcaption>
-                            <h3>Who's this guy? </h3>
-                        <p>I'm the Front-End Developer for EyeCue Lab in Portland, OR. 
-                        I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences. 
-                        Let's make something special.</p>
-                                <a href="#" className="card-link text-info">LinkedIn</a>
-                                <a href="#" className="card-link text-info">Email</a>
+                    <div className="col col-sm-4">
+                                <figure>
+                                <img className="img-fluid rounded border border-info" src={ProfilePic} width={250} alt="Suraj Pic"/>
+                                <figcaption>
+                                    <h3>Who's this guy? </h3>
+                                <p>I'm the Front-End Developer for EyeCue Lab in Portland, OR. 
+                                I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences. 
+                                Let's make something special.</p>
+                                </figcaption>
+                                <a class="text-primary btn btn-outline-info btn-lg"  href="#portfolio" role="button">
+                                    My LinkedIn Profile <LinkedInIcon/> </a>
 
-                        </figcaption>
-                        </figure>
+                                </figure>
+
+                    </div>
+
+                    <div className="container alert alert-light col-sm-4" role="alert">
+                        <h3>Specification </h3>
+
+                        <h5> Core Java</h5>
+                        <div className="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width:'85%'}}>
+                            Java 85%
+                            </div>
+                        </div>
+                        <h5> JavaScript</h5>
+                        <div className="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width:'95%'}}>
+                            Java 85%
+                            </div>
+                        </div>
+                        <h5> SQL</h5>
+                        <div className="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width:'65%'}}>
+                            Java 85%
+                            </div>
+                        </div>
+                        <h5> React</h5>
+                        <div className="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width:'55%'}}>
+                            Java 85%
+                            </div>
                         </div>
 
-                    <div className="container alert alert-light col-sm-6" role="alert">
+                         <h5> Bootstrap</h5>
+                        <div className="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width:'55%'}}>
+                            Java 85%
+                            </div>
+                        </div>
+
+                           <h5> HTML</h5>
+                        <div className="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width:'55%'}}>
+                            Java 85%
+                            </div>
+                        </div>
+
+                           <h5> CSS</h5>
+                        <div className="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width:'55%'}}>
+                            Java 85%
+                            </div>
+                        </div>
+                    
+
+                       
+                    </div>
+
+                    <div className="container alert alert-light col-sm-4" role="alert">
                         <h3>Specification </h3>
 
                         <h5> Core Java</h5>

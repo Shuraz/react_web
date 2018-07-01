@@ -6,6 +6,10 @@ import ContactMe from './ContactMe'
 import Story from './components/story'
 import Portfolio from './components/portfolio/portfolio'
 import UpIcon from 'react-icons/lib/go/chevron-up';
+import LinkedInIcon from 'react-icons/lib/fa/linkedin-square';
+import TwitterIcon from 'react-icons/lib/io/social-twitter';
+import MyEmailIcon from 'react-icons/lib/md/email';
+import GithubIcon from 'react-icons/lib/go/mark-github';
 import Home from './Home'
 import logo from './logo.svg';
 import './App.css';
@@ -36,7 +40,7 @@ class App extends Component {
                                               </div>
                                       </div> { /* -----end of collapse*/}
                                       
-                                      <span class="navbar-text d-none d-lg-inline-block">Hi, I'm Suraj Pokhrel, Software Developer.</span>
+                                      <span class="navbar-text d-none d-lg-inline-block">Hi, I'm a Software Engineer.</span>
                             </div>
       </nav>
 
@@ -86,10 +90,61 @@ class App extends Component {
 
  <footer class="App-footer text-center">
                 <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
-                <h2><UpIcon/></h2>
-          <br/><br/>
+                <h2 className="text-danger"><UpIcon/></h2>
           </a>
+
+  <div className="container row">
+   
+      <div className="col-md-8">
+        <div className="row ">
+        Copyright © 2018 Suraj Pokhrel. All right reserved.
+        </div>
+        <div className="row ">
           <p>All the Design and Code <a href="#" title="Suraj Pokhrel">mrsurajpokhrel@gmail.com</a></p>
+        </div>
+     </div>
+
+      <div className="col-md-4">
+        <div className="row ">
+                <div className="col">
+                      <div className="row ">
+                            <a href="#" className="card-link text-primary btn btn-outline-light btn-lg"><LinkedInIcon/></a>
+
+                      </div>
+                      <div className="row ">LinkedIn
+                      </div>  
+                </div>
+                <div className="col">
+                      <div className="row ">
+                              <a href="#" className="card-link text-primary btn btn-outline-light btn-lg"><TwitterIcon/></a>
+
+                      </div>
+                      <div className="row ">Twitter
+                      </div>  
+                </div>
+                <div className="col">
+                      <div className="row ">
+                              <a href="#" className="card-link text-dark btn btn-outline-light btn-lg"><GithubIcon/></a>
+
+                      </div>
+                      <div className="row ">Github
+                      </div>  
+                </div>
+                <div className="col">
+                      <div className="row ">
+           <a href="#" className="card-link text-danger btn btn-outline-light btn-lg"><MyEmailIcon/></a>
+
+                      </div>
+                      <div className="row ">Email
+                      </div>  
+                </div>
+        </div>
+    </div>
+
+    
+  </div>
+      
+         
 </footer>
 
 
