@@ -10,23 +10,23 @@ const Works = ({ routes }) => (
   <div>
       
         <div className="card">
-          <div class="card-header">
-          <h2>My Works</h2>
+          <div class="card-header text-secondary">
+          <h3>My Works</h3>
           </div>
                 <div className="row">
                     <div className="col col-sm-6">
                         <ul>
                           <li>
-                            <Link to="/work/w1">QR Ticketing System</Link>
+                            <Link  className=" text-info" to="/work/w1">QR Ticketing System</Link>
                           </li>
                           <li>
-                            <Link to="/work/w2">Andriod Application</Link>
+                            <Link   className=" text-info" to="/work/w2">Andriod Application</Link>
                           </li>
                           <li>
-                            <Link to="/work/w3">Desktop Application</Link>
+                            <Link  className=" text-info" to="/work/w3">Desktop Application</Link>
                           </li>
                           <li>
-                            <Link to="/work/w4">Portfolio</Link>
+                            <Link  className=" text-info" to="/work/w4">Portfolio</Link>
                           </li>
                         </ul>
                     </div>
@@ -46,20 +46,20 @@ const Training = ({ routes }) => (
   <div>
       
   <div className="card">
-    <div class="card-header">
-    <h2>Further Training</h2> 
+    <div class="card-header text-secondary">
+    <h3>Further Training</h3> 
     </div>
           <div className="row">
               <div className="col col-sm-6">
                   <ul>
                     <li>
-                      <Link to="/training/aa">Mobile Application</Link>
+                      <Link className=" text-info" to="/training/aa">Mobile Application</Link>
                     </li>
                     <li>
-                      <Link to="/training/bb">Java Certificate</Link>
+                      <Link className=" text-info" to="/training/bb">Java Certificate</Link>
                     </li>
                     <li>
-                      <Link to="/training/cc">Lynda Tutorials</Link>
+                      <Link className=" text-info" to="/training/cc">Lynda Tutorials</Link>
                     </li>
                   </ul>
               </div>
@@ -79,20 +79,20 @@ const Study = ({ routes }) => (
   <div>
       
         <div className="card">
-          <div class="card-header">
-          <h2>Formal Study</h2> 
+          <div class="card-header text-secondary">
+          <h3>Formal Study</h3> 
           </div>
                 <div className="row">
                     <div className="col col-sm-6">
                         <ul>
                           <li>
-                            <Link to="/study/master">Software Design and Development</Link>
+                            <Link className=" text-info" to="/study/master">Software Design and Development</Link>
                           </li>
                           <li>
-                            <Link to="/study/bachelor">Computer Engineering</Link>
+                            <Link className=" text-info" to="/study/bachelor">Computer Engineering</Link>
                           </li>
                           <li>
-                            <Link to="/study/highschool">High School</Link>
+                            <Link className=" text-info" to="/study/highschool">High School</Link>
                           </li>
                         </ul>
                     </div>
@@ -294,19 +294,15 @@ const RouteWithSubRoutes = route => (
 const Protfolio = () => (
   <Router>
     <div>
-
-        <div className="App">
-				<header className="App-header">
-					<h1 className="App-title">Portfolio</h1>
               <nav className="nav nav-pills nav-justified">
-              <Link  className="nav-item" to="/work"><h1><FolderIcon/> </h1> Works</Link>
+              <Link  className="nav-item text-info" to="/work"><h1><FolderIcon/> </h1 > Works</Link>
           
-              <Link className="nav-item" to="/training"><h1><SettingIcon/></h1> Training</Link>
+              <Link className="nav-item text-info" to="/training"><h1><SettingIcon/></h1> Training</Link>
 
-              <Link className="nav-item" to="/study"><h1><GraduateIcon/></h1> Study</Link>
+              <Link className="nav-item text-info" to="/study"><h1><GraduateIcon/></h1> Study</Link>
               </nav>
-				</header>
-        </div>
+			
+        
 
       
           

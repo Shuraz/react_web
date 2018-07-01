@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import MyLocationIcon from 'react-icons/lib/md/location-on';
+import MyEmailIcon from 'react-icons/lib/md/email';
 //import './App.css';
 
 class ContactMe extends Component{
@@ -23,10 +25,13 @@ class ContactMe extends Component{
 	render(){
 		return(
 <div>
-<h2 className="bg-info text-secondary"> Have a question or want me to work for you?
- </h2>
+<h3 className="text-secondary"> Have a question or want me to work for you?</h3>
+<p>Contact me and I'll get back to you within 24 hours. </p>
+<p><MyLocationIcon/> Sydney, Australia</p>
+<p><MyEmailIcon/> mrsurajpokhrel@gmail.com</p>
+
 	<form onSubmit={this.handleSubmit}>
-  <div className="form-row">
+  <div className="form-row ">
     <div className="form-group col-md-6">
       <label for="inputFName">Name First</label>
       <input type="text" className="form-control text-capitalize" id="inputName" placeholder="First Name"/>
@@ -50,7 +55,7 @@ class ContactMe extends Component{
     <textarea className="form-control" id="exampleFormControlTextarea1" value={this.state.value}  onChange={this.handleChange} rows="3"></textarea>
   </div>
 
-  <button type="submit" className="btn btn-primary">Submit</button>
+  <button type="submit" className="btn btn-danger btn-lg btn-block">Submit</button>
 </form>
 
 </div>

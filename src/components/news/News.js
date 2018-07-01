@@ -41,7 +41,7 @@ class News extends Component{
 		return(
 
 			<div>
-				 <h1> Latest Feed</h1>
+				 <h1 className="text-secondary"> Latest Feed</h1>
 					<div className="row">
 					
 						{this.renderItem()}
