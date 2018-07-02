@@ -97,7 +97,7 @@ class App extends Component {
    
       <div className="col-md-8">
         <div className="row ">
-        Copyright © 2018 Suraj Pokhrel. All right reserved.
+       SURAJ POKHREL @ 2018
         </div>
         <div className="row ">
           <p>All the Design and Code <a href="#" title="Suraj Pokhrel">mrsurajpokhrel@gmail.com</a></p>

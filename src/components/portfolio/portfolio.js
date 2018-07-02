@@ -11,7 +11,7 @@ const Works = ({ routes }) => (
       
         <div className="card">
           <div class="card-header text-secondary">
-          <h3>My Works</h3>
+          <h2>My Works</h2>
           </div>
                 <div className="row">
                     <div className="col col-sm-6">
@@ -47,7 +47,7 @@ const Training = ({ routes }) => (
       
   <div className="card">
     <div class="card-header text-secondary">
-    <h3>Further Training</h3> 
+    <h2>Further Training</h2> 
     </div>
           <div className="row">
               <div className="col col-sm-6">

@@ -60,9 +60,8 @@ export default class aboutme extends Component {
                                 <img className="img-fluid rounded border border-info" src={ProfilePic} width={250} alt="Suraj Pic"/>
                                 <figcaption>
                                     <h3>Who's this guy? </h3>
-                                <p>I'm the Front-End Developer for EyeCue Lab in Portland, OR. 
-                                I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences. 
-                                Let's make something special.</p>
+                                <p>I'm the Software Engineer. I have more than 2 years of experience in mobile development and  web development in Nepal. Currently, I am working as Java Tutor in Charles Sturt University, Sydney, Australia. I always think of implementing mobile device in agriculture, finance and  health and for the betterment of human kind.
+                                I will make something special.</p>
                                 </figcaption>
                                 <a class="text-primary btn btn-outline-info btn-lg"  href="#portfolio" role="button">
                                     My LinkedIn Profile <LinkedInIcon/> </a>
@@ -74,49 +73,49 @@ export default class aboutme extends Component {
                     <div className="container alert alert-light col-sm-4" role="alert">
                         <h3>Specification </h3>
 
-                        <h5> Core Java</h5>
+                        <h5> Java</h5>
                         <div className="progress">
-                            <div class=" bg-info progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width:'85%'}}>
-                            Java 85%
+                            <div class=" bg-info progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width:'65%'}}>
+                            Java 65%
                             </div>
                         </div>
                         <h5> JavaScript</h5>
                         <div className="progress">
-                            <div class="bg-info progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width:'95%'}}>
-                            Java 85%
+                            <div class="bg-info progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width:'60%'}}>
+                            JavaScript 60%
                             </div>
                         </div>
                         <h5> SQL</h5>
                         <div className="progress">
-                            <div class="bg-info progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width:'65%'}}>
-                            Java 85%
+                            <div class="bg-info progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width:'50%'}}>
+                            Java 50%
                             </div>
                         </div>
                         <h5> React</h5>
                         <div className="progress">
-                            <div class="bg-info progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width:'55%'}}>
-                            Java 85%
+                            <div class="bg-info progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width:'50%'}}>
+                            React 50%
                             </div>
                         </div>
 
                          <h5> Bootstrap</h5>
                         <div className="progress">
-                            <div class=" bg-info progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width:'55%'}}>
-                            Java 85%
+                            <div class=" bg-info progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width:'60%'}}>
+                            Bootstrap 60%
                             </div>
                         </div>
 
                            <h5> HTML</h5>
                         <div className="progress">
-                            <div class=" bg-info progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width:'55%'}}>
-                            Java 85%
+                            <div class=" bg-info progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width:'80%'}}>
+                            HTML 80%
                             </div>
                         </div>
 
                            <h5> CSS</h5>
                         <div className="progress">
-                            <div class="bg-info progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width:'55%'}}>
-                            Java 85%
+                            <div class="bg-info progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width:'60%'}}>
+                            CSS 60%
                             </div>
                         </div>
                     
@@ -125,32 +124,65 @@ export default class aboutme extends Component {
                     </div>
 
                     <div className="container alert alert-light col-sm-4" role="alert">
-                        <h3>Software Engineering</h3>
+                    <h3>Software Engineering</h3>
 
-                        
-                        <div className="container text-left">
+        <div className="row ">
+                <div className="col">
+                      <div className="row ">
+                      <div className="container text-left">
                         <h5>Research</h5>
                                     <div style={{ width: '100px' }}>
-                <CircularProgressbar percentage={100} text={`${100}%`} />
+                <CircularProgressbar percentage={90} text={`${90}%`} />
                                     </div>
                            
                         </div>
-                       
-                        <div className="container text-left">
-                        <h5>Design</h5>
+
+                      </div>
+                      <div className="row ">
+                      <div className="container text-left">
+                        <h5>Management</h5>
                                     <div style={{ width: '100px' }}>
-                            <CircularProgressbar percentage={90} text={`${90}%`} />
+                            <CircularProgressbar percentage={60} text={`${60}%`} />
                                     </div>
                         </div>
-                        <div className="container text-left">
+
+                      </div>  
+                </div>
+                <div className="col">
+                      <div className="row ">
+                      <div className="container text-left">
+                        <h5>Design</h5>
+
+                        
+                                    <div style={{ width: '100px' }}>
+                            <CircularProgressbar percentage={50} text={`${50}%`} />
+                                    </div>
+                           
+                        </div>
+                      </div>
+                      <div className="row ">
+                    
+                      <div className="container text-left">
                         <h5>Development</h5>
 
                         
                                     <div style={{ width: '100px' }}>
-                            <CircularProgressbar percentage={80} text={`${80}%`} />
+                            <CircularProgressbar percentage={75} text={`${75}%`} />
                                     </div>
                            
                         </div>
+                      </div>  
+                </div>
+
+        </div>
+
+                      
+
+                        
+                       
+                       
+                 
+
  
                     </div>
 
