@@ -2,6 +2,10 @@ import React, { Component } from 'react'
 import MyPic from './mypic.png';
 import Pic from './pic.png'
 import ProfilePic from './profilepic.png';
+import ResponsiveIcon from './responsive.png'
+import AppIcon from './app.png'
+import DiscoverIcon from './discover.png'
+import FastIcon from './fast.png'
 import LinkedInIcon from 'react-icons/lib/fa/linkedin-square';
 import CircularProgressbar from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
@@ -19,7 +23,7 @@ export default class aboutme extends Component {
             <div className="container text-center"  id="services">
                 <div className="row">
                     <section className="col-sm-6 col-md-3">
-                    <img className="img-fluid rounded-circle figure-img mx-auto" src={Pic} width={150} alt="Image"/>
+                    <img className="img-fluid rounded-circle figure-img mx-auto" src={ResponsiveIcon} width={150} alt="Image"/>
                     <figcaption className="figure-caption">
                     <h4>Responsive</h4>
                     <p>UI adopting to the device screen size.</p>
@@ -27,7 +31,7 @@ export default class aboutme extends Component {
                     </section>
 
                     <section className="col-sm-6 col-md-3">
-                    <img className="img-fluid rounded-circle figure-img mx-auto" src={Pic} width={150} alt="Image"/>
+                    <img className="img-fluid rounded-circle figure-img mx-auto" src={AppIcon} width={150} alt="Image"/>
                     <figcaption className="figure-caption">
                     <h4>App-like feel</h4>
                     <p>It does not feel like a website, but rather an an app as much as possible.</p>           
@@ -35,7 +39,7 @@ export default class aboutme extends Component {
                     </section>
 
                     <section className="col-sm-6 col-md-3">
-                    <img className="img-fluid rounded-circle figure-img mx-auto" src={Pic} width={150} alt="Image"/>
+                    <img className="img-fluid rounded-circle figure-img mx-auto" src={DiscoverIcon} width={150} alt="Image"/>
                     <figcaption className="figure-caption">
                     <h4>Discoverable</h4>
                     <p>Search engines and SEO optimization</p>
@@ -43,7 +47,7 @@ export default class aboutme extends Component {
                     </section>
 
                     <section className="col-sm-6 col-md-3">
-                    <img className="img-fluid rounded-circle figure-img mx-auto" src={Pic} width={150} alt="Image"/>
+                    <img className="img-fluid rounded-circle figure-img mx-auto" src={FastIcon} width={150} alt="Image"/>
                     <figcaption className="figure-caption">
                     <h4>Fast and Dynamic</h4>
                     <p>Fast, interactive and lighter dymanic website. </p>
@@ -55,7 +59,7 @@ export default class aboutme extends Component {
 
             <div className="container">
                 <div className="row">
-                    <div className="col col-sm-4">
+                    <div className="col col-sm-8">
                                 <figure>
                                 <img className="img-fluid rounded border border-info" src={ProfilePic} width={250} alt="Suraj Pic"/>
                                 <figcaption>
@@ -123,68 +127,7 @@ export default class aboutme extends Component {
                        
                     </div>
 
-                    <div className="container alert alert-light col-sm-4" role="alert">
-                    <h3>Software Engineering</h3>
 
-        <div className="row ">
-                <div className="col">
-                      <div className="row ">
-                      <div className="container text-left">
-                        <h5>Research</h5>
-                                    <div style={{ width: '100px' }}>
-                <CircularProgressbar percentage={90} text={`${90}%`} />
-                                    </div>
-                           
-                        </div>
-
-                      </div>
-                      <div className="row ">
-                      <div className="container text-left">
-                        <h5>Management</h5>
-                                    <div style={{ width: '100px' }}>
-                            <CircularProgressbar percentage={60} text={`${60}%`} />
-                                    </div>
-                        </div>
-
-                      </div>  
-                </div>
-                <div className="col">
-                      <div className="row ">
-                      <div className="container text-left">
-                        <h5>Design</h5>
-
-                        
-                                    <div style={{ width: '100px' }}>
-                            <CircularProgressbar percentage={50} text={`${50}%`} />
-                                    </div>
-                           
-                        </div>
-                      </div>
-                      <div className="row ">
-                    
-                      <div className="container text-left">
-                        <h5>Development</h5>
-
-                        
-                                    <div style={{ width: '100px' }}>
-                            <CircularProgressbar percentage={75} text={`${75}%`} />
-                                    </div>
-                           
-                        </div>
-                      </div>  
-                </div>
-
-        </div>
-
-                      
-
-                        
-                       
-                       
-                 
-
- 
-                    </div>
 
                 </div>
             </div>

@@ -46,6 +46,7 @@ export const trainingB=(
         Java Programming Certificates
     
     </h4>
+    <b>Certificate In Java Programming language using Java SE6</b>
     {text.trainingB}
 
     </div>

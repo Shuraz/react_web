@@ -30,7 +30,7 @@ class ContactMe extends Component{
 <p><MyLocationIcon/> Sydney, Australia</p>
 <p><MyEmailIcon/> mrsurajpokhrel@gmail.com</p>
 
-	<form onSubmit={this.handleSubmit}>
+	<form onSubmit={this.handleSubmit} action="mailto:mrsurajpokhrel@gmail.com" method="post">
   <div className="form-row ">
     <div className="form-group col-md-6">
       <label for="inputFName">Name First</label>
@@ -38,7 +38,7 @@ class ContactMe extends Component{
     </div>
     <div className="form-group col-md-6">
       <label for="inputLName">Last Name</label>
-      <input type="password" className="form-control text-capitalize" id="inputPassword4" placeholder="Last Name"/>
+      <input type="password" className="form-control text-capitalize" id="inputName" placeholder="Last Name"/>
     </div>
   </div>
 
